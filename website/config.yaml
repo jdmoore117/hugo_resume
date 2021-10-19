@@ -1,10 +1,9 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo-profile"
+title: "Jonathan Moore - Software Engineer"
 theme: "./.."
 relativeURLs: true
-
-googleanalytics: UA-167646412-8
+googleanalytics:
 disqusShortname:
 Paginate: 3
 markup:
@@ -19,122 +18,98 @@ taxonomies:
 enableEmoji: true
 params:
   version: 3
-
   favicon: "/images/fav.png"
-  description: "A high performance hugo theme for personal portfolio and blog."
-
-  # Navbar Menus
-  customMenus:
-    - name: "Blog"
-      Url: "/blog"
+  description: "Jonathan Moore - Software Engineer"
 
   # home
   disable_home: false
   profile_image: "/images/profile.png"
-  name: "Example name"
+  name: "Jonathan Moore"
   namecolor: ffc107
-  profession: "Profession"
-  github: "https://github.com"
-  linkedin: "https://linkedin.com"
-  twitter: "https://twitter.com/"
-  instagram: "https://instagram.com/"
-  facebook: "https://facebook.com"
+  profession: "Software Engineer"
+  github: "https://github.com/jdmoore117/"
+  linkedin: "https://www.linkedin.com/in/jdmoore117/"
 
   # About
   disable_about: false
-  descripe_l1_person: "Hi, I'm Profile, a passionate web developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-  descripe_l2_person: "This is a example template for about section. You can find my works [here](#projects)"
+  descripe_l1_person: "Software Engineer / Web Developer with experience building .NET web applications and JAMStack websites"
+  descripe_l2_person: "University of Arkansas at Little Rock Magna Cum Laude Honor Graduate with a Bachelor of Science Degree in Information Science"
   skills:
-    - name: CSS
+    - name: .NET
       percentage: 90
-    - name: Django
+    - name: React.js
       percentage: 85
-    - name: Hugo
+    - name: Bootstrap
       percentage: 80
-    - name: React JS
+    - name: Hugo
       percentage: 70
 
   # Experience
   disable_experience: false
   experience:
-    - company: "Google"
+    - company: "USAble Life"
       # id: "google-developer"   // use this, when you want to change the id(used for navigation)
-      role: "Software developer"
-      startdate: Feb 2021
+      role: "Senior Developer"
+      startdate: Feb 2014
       enddate: present
       featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
-    - company: "Facebook"
-      # id: "facebook-developer" // use this, when you want to change the id(used for navigation)
-      role: "Fullstack developer"
-      startdate: Mar 2020
-      enddate: Dec 2020
-      featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
-    - company: "Amazon"
-      # id: "amazon-developer" // use this, when you want to change the id(used for navigation)
-      role: "Fullstack developer"
-      startdate: Feb 2019
-      enddate: Jan 2020
-      featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
-
+        - point: Owns and drive creation of new frameworks and best practices
+        - point: Leading software development team to create quality and performance based code
   # Education
   disable_education: false
   education:
-    - degree: "B.tech"
-      branch: "Information Technology"
-      university: "Example university"
+    - degree: "Bachelor of Science"
+      branch: " Information Science"
+      university: "University of Arkansas at Little Rock"
       startedyear: "2013"
-      graduation: "2018"
-    - degree: "Degree"
-      branch: "Branch"
-      university: "Example university"
-      startedyear: "year"
-      graduation: "year"
-    - degree: "Degree"
-      branch: "Branch"
-      university: "Example university"
-      startedyear: "year"
-      graduation: "year"
+      graduation: "2015"
+    - degree: "Associate of Science"
+      branch: " Information Science"
+      university: "Pulaski Technical College"
+      startedyear: "2010"
+      graduation: "2021"
 
   # Projects
   disable_projects: false
   projects:
-    - name: "Example project without details"
+    - name: "Online Claims Submission"
       img: /images/project.jpg
-      githublink: "https://github.com/"
-      featuredlink: "/"
-      description: "Description of project"
+      featuredlink: "https://claims.usablelife.com/std"
+      description: "Online claims portal connected to Salesforce. Frameworks used: .NET core, Bootstrap, React.js."
+    - name: "UsableLife"
+      img: /images/project.jpg
+      featuredlink: "https://www.usablelife.com/"
+      description: "JAMStack websites hosted on Netlify and editable in Forestry CMS. Frameworks used: Hugo, Bootstrap, JavaScript, React.js, Axios."
+    - name: "AccessAble"
+      img: /images/project.jpg
+      featuredlink: "https://accessable.usablelife.com/"
+      description: "Online self service portal for both employers and employees. Frameworks used: .NET 4.8, Ruby, Bootstrap, React.js."
 
   # Achievements
   disable_achievements: false
   achievements:
-    - title: Competition winner
-      description: We are developed a product which can help others.
+    - title: Life Office Management Association Certification
+      description: FLMI Level 1.
       img: /images/achiv.jpg
-    - title: Competition winner
-      description: We are developed a product which can help others.
+    - title: Excellence and Action Award	
+      description: Usable Life
       img: /images/achiv.jpg
-    - title: Competition winner
-      description: We are developed a product which can help others.
+    - title: Senior Award Academic Achievement
+      description: University of Arkansas at Little Rock
       img: /images/achiv.jpg
-    - title: Competition winner
-      description: We are developed a product which can help others.
+    - title: Junior Award for Academic Achievement
+      description: University of Arkansas at Little Rock
       img: /images/achiv.jpg
 
   # Contact
   disable_contact: false
-  contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
-  email: "example@mail.com"
+  contact_content: You can reach me at this email address
+  email: "jdmoore117@outlook.com"
 
   # Footer
   socialiconfooter: true
-  recentposts: true
+  recentposts: false
 
   # Blog
   showdescription: false
-  tweet: true
+  tweet: false
