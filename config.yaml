@@ -1,0 +1,115 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "Jonathan Moore - Software Engineer"
+theme: "./.."
+relativeURLs: true
+googleanalytics:
+disqusShortname:
+Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+enableEmoji: true
+params:
+  version: 3
+  favicon: "/images/fav.png"
+  description: "Jonathan Moore - Software Engineer"
+
+  # home
+  disable_home: false
+  profile_image: "/images/profile.png"
+  name: "Jonathan Moore"
+  namecolor: ffc107
+  profession: "Software Engineer"
+  github: "https://github.com/jdmoore117/"
+  linkedin: "https://www.linkedin.com/in/jdmoore117/"
+
+  # About
+  disable_about: false
+  descripe_l1_person: "Software Engineer / Web Developer with experience building .NET web applications and JAMStack websites"
+  descripe_l2_person: "University of Arkansas at Little Rock Magna Cum Laude Honor Graduate with a Bachelor of Science Degree in Information Science"
+  skills:
+    - name: .NET
+      percentage: 90
+    - name: React.js
+      percentage: 85
+    - name: Bootstrap
+      percentage: 80
+    - name: Hugo
+      percentage: 70
+
+  # Experience
+  disable_experience: false
+  experience:
+    - company: "USAble Life"
+      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
+      role: "Senior Developer"
+      startdate: Feb 2014
+      enddate: present
+      featuredpoints:
+        - point: Owns and drive creation of new frameworks and best practices
+        - point: Leading software development team to create quality and performance based code
+  # Education
+  disable_education: false
+  education:
+    - degree: "Bachelor of Science"
+      branch: " Information Science"
+      university: "University of Arkansas at Little Rock"
+      startedyear: "2013"
+      graduation: "2015"
+    - degree: "Associate of Science"
+      branch: " Information Science"
+      university: "Pulaski Technical College"
+      startedyear: "2010"
+      graduation: "2021"
+
+  # Projects
+  disable_projects: false
+  projects:
+    - name: "Online Claims Submission"
+      img: /images/project.jpg
+      featuredlink: "https://claims.usablelife.com/std"
+      description: "Online claims portal connected to Salesforce. Frameworks used: .NET core, Bootstrap, React.js."
+    - name: "UsableLife"
+      img: /images/project.jpg
+      featuredlink: "https://www.usablelife.com/"
+      description: "JAMStack websites hosted on Netlify and editable in Forestry CMS. Frameworks used: Hugo, Bootstrap, JavaScript, React.js, Axios."
+    - name: "AccessAble"
+      img: /images/project.jpg
+      featuredlink: "https://accessable.usablelife.com/"
+      description: "Online self service portal for both employers and employees. Frameworks used: .NET 4.8, Ruby, Bootstrap, React.js."
+
+  # Achievements
+  disable_achievements: false
+  achievements:
+    - title: Life Office Management Association Certification
+      description: FLMI Level 1.
+      img: /images/achiv.jpg
+    - title: Excellence and Action Award	
+      description: Usable Life
+      img: /images/achiv.jpg
+    - title: Senior Award Academic Achievement
+      description: University of Arkansas at Little Rock
+      img: /images/achiv.jpg
+    - title: Junior Award for Academic Achievement
+      description: University of Arkansas at Little Rock
+      img: /images/achiv.jpg
+
+  # Contact
+  disable_contact: false
+  contact_content: You can reach me at this email address
+  email: "jdmoore117@outlook.com"
+
+  # Footer
+  socialiconfooter: true
+  recentposts: false
+
+  # Blog
+  showdescription: false
+  tweet: false
